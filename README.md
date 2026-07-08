@@ -12,7 +12,7 @@ The included class extends AExpressiveTextActor to include a 2D plane with a tex
 This was meant to be as much as a direct replacement for Expressive Text Actor as possible for cases where you need shadows -- you could also take these concepts and fold them directly into the core class itself. It was also easier to keep separate for shareability without having to deal with patch files or distribution of proprietary code. This is the reason that there is also a direct reference to the included shadow proxy material, as this should make it easier for people not familiar with C++ to just add the files to the right place and be done with it.
 
 ### Installation Instructions
-As you are working to port the plugin to UE 5.8 ([guide here](https://github.com/RedCraft86/Random/blob/main/ExpressiveText/UpdateInfo.md)), these files can just be included in the plugin directory locations as follows:
+As you are working to port the plugin to UE 5.8 ([guide here](https://github.com/RedCraft86/Random/blob/main/ExpressiveText/UpdateInfo.md)), these files can just be included in the plugin directory. [Download](https://github.com/AndrewCFG/expressive-customizations/archive/refs/heads/main.zip) the source, and just drag/drop the Source/Content folders into the Expressive Text plugin folder. Alternatively, the file locations are as follows:
 
 1. Add **ExpressiveTextActorShadowed.h** to Source/ExpressiveText/Public/Actors/ExpressiveTextActorShadowed.h
 2. Add **ExpressiveTextActorShadowed.cpp** to Source/ExpressiveText/Private/Actors/ExpressiveTextActorShadowed.cpp
